@@ -1,18 +1,35 @@
-# 🔗 LittleLink
+# Geovanny Alvarado - Personal Portfolio
 
-![LittleLink](https://cdn.cottle.cloud/littlelink/social-circle.png)
+[![Deploy to GitHub Pages](https://github.com/geovannyalvarado/personal-web-page/actions/workflows/pages/build.yml/badge.svg)](https://github.com/geovannyalvarado/personal-web-page/actions)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
-LittleLink is a lightweight DIY alternative to services like [Linktree](https://linktr.ee)
-and [many.link](https://many.link/). LittleLink was built using [Skeleton](http://getskeleton.com/), a dead simple, responsive boilerplate—we just stripped out some additional code you wouldn't need and added in branded styles for popular services. 😊
+A clean, minimalist, and fully responsive personal web page built to showcase my professional experience, skills, and background as a Software Engineer. Designed with a developer-centric aesthetic focusing on high contrast, typography, and clear data hierarchy.
 
-![Themes](https://cdn.cottle.cloud/littlelink/littlelink-comparison.gif)
+## ✨ Features
 
-LittleLink has more than 50+ branded button styles you can use (with even more being added by our community). You'll also find a light and dark theme ready to go. Not a fan of the default colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing. You can also set your CSS to `skeleton-auto.css`, which will use the system theme of the device you visit on.
+* **Fully Responsive:** Adapts seamlessly to all screen sizes (mobile, tablet, desktop) using Bootstrap's grid system.
+* **Native Dark/Light Mode:** Integrated with Bootstrap 5.3's `data-bs-theme` attribute for optimal user experience and accessibility.
+* **Minimalist UI:** Terminal-inspired design elements tailored for backend and cloud engineering profiles.
+* **Performance Optimized:** Lightweight assets, standard web technologies, and no heavy frontend frameworks.
 
-![Performance](https://cdn.cottle.cloud/littlelink/performance.png)
+## 🚀 Tech Stack
 
-Using [Skeleton](http://getskeleton.com/) let us build something that loads quickly & doesn't have any of the unnecessary bloat you would get from using a large framework for a page that requires nothing more than simplicity. LittleLink scored a 99/100 in performance when tested with [Google Lighthouse](https://developers.google.com/web/tools/lighthouse).
+* **HTML5** (Semantic structure)
+* **CSS3** (Custom styling and CSS variables)
+* **JavaScript (ES6+)** (DOM manipulation for theme toggling)
+* **Bootstrap 5.3** (UI framework, typography, grid, and utility classes)
 
-![Publish](https://cdn.cottle.cloud/littlelink/fork-edit-publish.png)
+## 📁 Project Structure
 
-No need for gulp, npm, or anything else to make LittleLink work—it uses the bare essentials. You can automatically fork and deploy LittleLink with [Vercel](https://vercel.com/). 
+```text
+PERSONAL-WEB-PAGE/
+├── css/
+│   └── style.css           # Custom styling and dark mode overrides
+├── images/
+│   ├── icons/
+│   │   └── favicon.png     # Site favicon
+│   └── profile.jpg         # Profile image (if applicable)
+├── js/
+│   └── main.js             # Theme toggle logic
+├── index.html              # Main landing page
+└── README.md               # Project documentation

@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.7;
+}
+
+/* Tipografía de código para encabezados */
+.font-monospace {
+    font-family: 'SFMono-Regular', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.tracking-wide {
+    letter-spacing: 0.1em;
+}
+
+.tracking-tight {
+    letter-spacing: -0.03em;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+/* Badges modernos para habilidades */
+.tech-badge {
+    background-color: var(--bs-secondary-bg);
+    color: var(--bs-body-color);
+    border: 1px solid var(--bs-border-color);
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.tech-badge:hover {
+    background-color: var(--bs-dark);
+    color: var(--bs-white);
+    border-color: var(--bs-dark);
+}
+
+/* Personalización del Timeline */
+.timeline-dot {
+    z-index: 1;
+}
+
+[data-bs-theme="dark"] .timeline-dot {
+    background-color: #fff !important;
+}
+
+/* --- OPTIMIZACIÓN DE BOTONES PARA MODO OSCURO --- */
+[data-bs-theme="dark"] .btn-dark {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #f8f9fa;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #e9ecef;
+    --bs-btn-hover-border-color: #e9ecef;
+}
+
+[data-bs-theme="dark"] .btn-outline-dark {
+    --bs-btn-color: #f8f9fa;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #f8f9fa;
+    --bs-btn-hover-border-color: #f8f9fa;
+}
+
+[data-bs-theme="dark"] .text-primary {
+    color: #6ea8fe !important;
+}
